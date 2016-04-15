@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @vehicle.make %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @vehicle.label %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @vehicle.year %>
+</p>
+
+<p>
+  <strong>Miles:</strong>
+  <%= @vehicle.miles %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @vehicle.category %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @vehicle.price %>
+</p>
+
+<%= image_tag @vehicle.avatar.url(:medium) %>
+</br>
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>
