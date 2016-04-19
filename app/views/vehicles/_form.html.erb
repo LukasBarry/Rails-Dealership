@@ -39,6 +39,9 @@
     <%= f.label "Photo" %><br>
     <%= f.file_field :avatar %>
   </div>
+  <div class="field form-group">
+    <%= f.collection_select(:location_id, Location.all, :id, :lot) %>
+  </div>
   <div class="actions form-group">
     <%= f.submit %>
   </div>

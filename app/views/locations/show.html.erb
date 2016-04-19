@@ -5,5 +5,12 @@
   <%= @location.lot %>
 </p>
 
+
+<% @location.vehicles.each do |car| %>
+<p><%= car.make %></p>
+<p><%= car.label %></p>
+<% end %>
+
+
 <%= link_to 'Edit', edit_location_path(@location) %> |
 <%= link_to 'Back', locations_path %>
