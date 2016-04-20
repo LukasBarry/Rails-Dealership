@@ -1,0 +1,31 @@
+/* line 4, /Users/LukasBarry/Desktop/tts/rails/dealership/app/assets/stylesheets/vehicles.scss */
+.btn-group {
+  padding: 10px;
+}
+/* line 4, /Users/LukasBarry/Desktop/tts/rails/dealership/app/assets/stylesheets/welcome.scss */
+.jumbotron {
+  margin: 20px;
+}
+
+/* line 8, /Users/LukasBarry/Desktop/tts/rails/dealership/app/assets/stylesheets/welcome.scss */
+.row {
+  text-align: center;
+}
+/*
+
+
+ */
+
+ body {
+   background-image: url("/assets/road.jpeg") no-repeat;
+   background-size: cover;
+ }
+
+ .container {
+   background: rgba(255, 255, 255, 0.7);
+ }
+
+ .navbar-default .navbar-brand {
+   font-family: 'Pacifico', cursive;
+   color: #003459;
+ }
