@@ -1,14 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Lot:</strong>
-  <%= @location.lot %>
-</p>
-
+<h1><strong>Lot: </strong><%= @location.lot %></h1>
 
 <% @location.vehicles.each do |car| %>
-<p><%= car.make %></p>
-<p><%= car.label %></p>
+<p><%= car.make %> <%= car.label %></p>
 <% end %>
 
 
